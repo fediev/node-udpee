@@ -1,0 +1,27 @@
+{
+  "name": "udpee",
+  "version": "0.1.0",
+  "description": "udp helper",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test/**/*.test.js",
+    "test:watch": "npm run test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fediev/node-udpee.git"
+  },
+  "author": "fediev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fediev/node-udpee/issues"
+  },
+  "homepage": "https://github.com/fediev/node-udpee#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.5.3"
+  }
+}
